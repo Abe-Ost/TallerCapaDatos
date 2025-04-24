@@ -13,10 +13,9 @@ namespace SggApp.DAL.Entidades
         public DateTime FechaInicio { get; set; }
         public DateTime FechaFin { get; set; }
 
-        public Usuario Usuario { get; set; }
-        public Categoria Categoria { get; set; }
-        public Moneda Moneda { get; set; }
+        public Usuario Usuario { get; set; } // Relación con el usuario
+        public Categoria Categoria { get; set; } // Relación con la categoría
+        public Moneda Moneda { get; set; } // Relación con la moneda
 
-        // constructor...
     }
 }

@@ -19,6 +19,5 @@ namespace SggApp.DAL.Entidades
         public Categoria Categoria { get; set; } // Relación con la categoría
         public Moneda Moneda { get; set; } // Relación con la moneda
 
-        //constructor...
     }
 }

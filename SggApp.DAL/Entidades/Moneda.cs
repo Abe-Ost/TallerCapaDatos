@@ -10,7 +10,7 @@ namespace SggApp.DAL.Entidades
         public string Nombre { get; set; }
         public string Simbolo { get; set; }
 
-        public ICollection<Gasto> Gastos { get; set; }
-        public ICollection<Presupuesto> Presupuestos { get; set; }
+        public ICollection<Gasto> Gastos { get; set; } // Una moneda puede estar asociada a muchos gastos
+        public ICollection<Presupuesto> Presupuestos { get; set; } // Una moneda puede estar asociada a muchos presupuestos
     }
 }
