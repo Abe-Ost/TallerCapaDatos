@@ -1,6 +1,5 @@
-using Microsoft.EntityFrameworkCore;
-using SggApp.DAL.Contextos;
 using SggApp.DAL.Entidades;
+using SggApp.DAL.Repositorios;
 
 namespace SggApp.DAL.Repositorios
 {
@@ -9,5 +8,7 @@ namespace SggApp.DAL.Repositorios
         public GastoRepository(SggAppContext context) : base(context)
         {
         }
+
+        // No se necesitan métodos específicos adicionales por ahora
     }
 }

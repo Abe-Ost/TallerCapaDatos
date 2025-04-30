@@ -1,9 +1,9 @@
 using Microsoft.EntityFrameworkCore;
 using SggApp.DAL.Entidades;
 
-public class ApplicationDbContext : DbContext
+public class SggAppContext : DbContext
 {
-    public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options)
+    public SggAppContext(DbContextOptions<SggAppContext> options)
         : base(options) { }
 
     public DbSet<Usuario> Usuarios { get; set; }
