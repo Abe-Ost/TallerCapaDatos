@@ -53,10 +53,9 @@ namespace SggApp.BLL.Servicios
         {
             return await _usuarioRepository.GetAllWithGastosAsync();
         }
-
-        public async Task<bool> EmailExisteAsync(string email)
+        public Task<IEnumerable<Usuario>> ObtenerPorUsuarioAsync(int usuarioId)
         {
-            return await _usuarioRepository.EmailExisteAsync(email);
+            throw new NotImplementedException();
         }
     }
 }

@@ -43,5 +43,10 @@ namespace SggApp.BLL.Servicios
                 _monedaRepository.Delete(moneda);
             }
         }
+
+        public Task<IEnumerable<Moneda>> ObtenerPorUsuarioAsync(int usuarioId)
+        {
+            throw new NotImplementedException();
+        }
     }
 }

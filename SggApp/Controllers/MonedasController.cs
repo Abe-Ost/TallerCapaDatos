@@ -1,0 +1,1 @@
+//(podrían ser datos más estáticos, quizás solo lectura o gestión por admin)

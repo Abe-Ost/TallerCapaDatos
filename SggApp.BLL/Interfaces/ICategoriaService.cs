@@ -8,7 +8,6 @@ namespace SggApp.BLL.Interfaces
     {
         Task<IEnumerable<Categoria>> ObtenerTodosAsync(); // Obtiene todos las categorías
         Task<Categoria> ObtenerPorIdAsync(int id);  // Obtiene una categoría por su ID
-        Task<IEnumerable<Categoria>> ObtenerPorUsuarioAsync(int usuarioId); // Obtener categorias de un usuario
         Task AgregarAsync(Categoria categoria); // Agrega una categoría
         Task ActualizarAsync(Categoria categoria);  // Actualiza una categoría existente
         Task EliminarAsync(int id); // Elimina una categoría
